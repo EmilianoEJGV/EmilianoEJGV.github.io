@@ -1,0 +1,10 @@
+.contenedor a:link,
+.contenedor a:visited {
+  color: #161c7c;
+  background-color: #165f26;
+  padding: 15px 20px;
+  text-decoration: none;
+  width: 100px; /* Ancho del botón */
+  margin: 0 auto; /* Margen automático a ambos lados para centrar */
+  display: block; /* Asegura que sea un bloque y ocupa todo el ancho disponible */
+}
