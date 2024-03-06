@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right:20%;
+   background-color: #457b9d;
+   transition: background-color 0.5s ease;
+}
+
+
+.container {
+    width: 30%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a4133c;
+    flex: 1;
+   
+}
+
+
+.container .titulo {
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+
+.formulario {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.forma {
+    width: 100%;
+    margin-bottom: 5px; 
+    padding: 20px 20px 20px 20px;
+}
+
+.forma .form-control {
+    width: calc(100% - 10px); 
+}
+
+.forma .form-label{
+    color: white;
+}
+
+label {
+    color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.botoonn{
+    align-items: center;
+}
+
+
+.container2 {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+body.dark-mode {
+    background-color: #333; 
+}
+
+.container.dark-mode {
+    background-color: #575050; 
+}
+
+
+
+

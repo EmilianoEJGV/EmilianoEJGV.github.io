@@ -24,8 +24,6 @@ body {
   width: 80%;/*para que tengan espacio sufuciente*/
   padding: 50px;
   margin: 0 auto;
- 
-  
 }
  
 .cards .card{
@@ -89,9 +87,6 @@ body {
 .element-2:hover{
   margin-left: -130px;
 }
-
-
-
 
  /* Agrega estilos para el párrafo */
 .cambioContenido {
