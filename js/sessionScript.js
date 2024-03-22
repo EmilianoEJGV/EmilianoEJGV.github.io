@@ -24,7 +24,7 @@ function logout() {
     // Limpiar el almacenamiento local (localStorage)
     localStorage.clear();
     // Redirigir al usuario a la página de inicio de sesión
-    window.location.href = "../HTML/login.html";
+    window.location.href = "../html/login.html";
 }
 
 // Agregar el evento click al enlace de logout
