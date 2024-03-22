@@ -21,7 +21,7 @@ body {
   
 .cards{
   display: flex;
-  width: 80%;/*para que tengan espacio sufuciente*/
+  width: 80%;
   padding: 50px;
   margin: 0 auto;
 }
@@ -88,21 +88,21 @@ body {
   margin-left: -130px;
 }
 
- /* Agrega estilos para el párrafo */
+
 .cambioContenido {
     text-align: center;
-    font-size: 24px; /* Ajusta el tamaño del texto según tus preferencias */
+    font-size: 24px; 
     color: #fff;
-    margin-top: 50px; /* Ajusta la distancia superior según tus preferencias */
-    opacity: 0.8; /* Opacidad inicial */
+    margin-top: 50px; 
+    opacity: 0.8; 
     animation: cambioAnimacion 2s ease-in-out infinite alternate;
-    transition: opacity 0.5s ease; /* Ajusta la duración y el efecto de la transición */
+    transition: opacity 0.5s ease; 
   }
   
-  /* Agrega estilos al pasar el ratón (puedes ajustar según tus preferencias) */
+ 
   .cambioContenido:hover {
     opacity: 1;
-    animation-play-state: paused; /* Detiene la animación al pasar el ratón */
+    animation-play-state: paused; 
   }
   
   @keyframes cambioAnimacion {

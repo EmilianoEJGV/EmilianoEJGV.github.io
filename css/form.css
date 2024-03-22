@@ -45,7 +45,8 @@ body {
 }
 
 .forma .form-control {
-    width: calc(100% - 10px); 
+    width: calc(100% - 10px);
+    background-color: black; 
 }
 
 .forma .form-label{
