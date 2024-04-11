@@ -1,0 +1,35 @@
+{
+  "en": {
+    "hello_world": "Welcome",
+    "msg_enter": "Wait, you know how to speak English?"
+  },
+  "zh": {
+    "hello_world": "欢迎",
+    "msg_enter": "等等，你知道怎么说中文吗？"
+  },
+  "hi": {
+    "hello_world": "स्वागत है",
+    "msg_enter": "रुको, आपको हिंदी बोलनी आती है?"
+  },
+  "es": {
+    "hello_world": "Bienvenido",
+    "msg_enter": "Espera, ¿sabes hablar español?"
+  },
+  "ar": {
+    "hello_world": "أهلا بك",
+    "msg_enter": "انتظر، هل تعرف كيف تتحدث العربية؟"
+  },
+  "de": {
+    "hello_world": "Willkommen",
+    "msg_enter": "Warte, kannst du Deutsch sprechen?"
+  },
+  "fr": {
+    "hello_world": "Bienvenue",
+    "msg_enter": "Attendez, vous savez parler français?"
+  },
+  "it": {
+    "hello_world": "Benvenuto",
+    "msg_enter": "Aspetta, sai parlare italiano?"
+  }
+}
+

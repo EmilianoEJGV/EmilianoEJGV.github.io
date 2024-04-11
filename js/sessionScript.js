@@ -44,6 +44,8 @@ greetingDiv.textContent = `¡Hello, ${firstname} ${lastname}!`;
 const xpDiv = document.querySelectorAll('.secundary-content > .text')[1]; // el segundo div dentro de secundary-content
 const creditsDiv = document.querySelectorAll('.secundary-content > .text')[3]; // el cuarto div dentro de secundary-content
 
+
+
 // Cambiar el contenido de los divs con las variables xp y credits
 xpDiv.textContent = `${xp}`;
 creditsDiv.textContent = `${credits}`;
