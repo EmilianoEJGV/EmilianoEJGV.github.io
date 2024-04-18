@@ -1,22 +1,12 @@
-// Obtén el elemento del párrafo
-var parrafo = document.querySelector('.cambioContenido');
+document.addEventListener('DOMContentLoaded', function() {
+  const cardsContainer = document.querySelector('.cards');
+  const showCardsBtn = document.getElementById('show-cards-btn');
 
-// Define el contenido que deseas cambiar
-var contenidos = [
-  'Nuevo contenido cada práctica',
-  'Los amo tonotos',
-  'Desarrollo web',
-  'Ingeniería la vida'
-];
+  cardsContainer.style.display = 'none';
 
-// Inicializa el índice del contenido
-var indice = 0;
-
-// Función para cambiar el contenido con animación cada cierto tiempo
-function cambiarContenido() {
-  parrafo.innerHTML = contenidos[indice];
-  indice = (indice + 1) % contenidos.length;
-}
-
-// Cambia el contenido cada 3 segundos (3000 milisegundos)
-setInterval(cambiarContenido, 5000);
+  showCardsBtn.addEventListener('click', function() {
+    
+    cardsContainer.style.display = 'flex';
+    showCardsBtn.parentNode.style.display = 'none';
+  });
+});
