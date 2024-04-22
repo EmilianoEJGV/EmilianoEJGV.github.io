@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
-
-  <link rel="stylesheet" href="css/iniciopadre.css"/>
-
-  <title>Emiliano 801 CIB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/iniciopadre.css">
+    <title>Prácticas y Ejercicios</title>
 </head>
 <body>
 
-    <div id="backgroundEffect"></div>
-
-    <div id="show-cards-btn-container">
-        <button id="show-cards-btn">Ver más</button>
-      </div>
-
-
-    <header>
-      <h1>Prácticas de Emiliano Jorge García Vázquez</h1>
-      <h2>801 CIB</h2>
+    <header id="titulo1">
+        <h1>Prácticas de Emiliano Jorge García Vázquez</h1>
+        <h2>801 CIB</h2>
     </header>
 
+    <div class="ball">
+        <div class="circle" style="--clr:#04fc43"></div>
+        <div class="circle" style="--clr:#fee800"></div>
+        <div class="circle" style="--clr:#ff2972"></div>
+        <div class="circle" style="--clr:#03a9f4"></div>
+    </div>
+
+    <div id="show-cards-btn-container">
+      <button id="show-cards-btn">↓</button>
+  </div>
+  
+
+
+    <!-- Coloca el contenedor de las cartas dentro de la bola -->
     <div class="cards">
       <div class="card">
         <div class="header">
@@ -39,67 +42,79 @@
         </div>
       </div>
 
+      <!-- Cartas adicionales proporcionadas -->
       <div class="card element-1">
-        <div class="header">
-          <div class="title">Primera práctica</div>
-        </div>
-        <div class="footer">
-          <div class="autor">
-            <a href="https://emilianoejgv.github.io/Codemate.html">
-              <img src="imagenes/Desenvolvedor-de-software.jpg" alt="">
-              <span>CodeMate</span>
-            </a>
+          <div class="header">
+              <div class="title">Primera práctica</div>
           </div>
-        </div>
+          <div class="footer">
+              <div class="autor">
+                  <a href="https://emilianoejgv.github.io/Codemate.html">
+                      <img src="imagenes/Desenvolvedor-de-software.jpg" alt="">
+                      <span>CodeMate</span>
+                  </a>
+              </div>
+          </div>
       </div>
 
       <div class="card element-2">
-        <div class="header">
-          <div class="title">Mi primer formulario</div>
-        </div>
-        <div class="footer">
-          <div class="autor">
-            <a href="https://emilianoejgv.github.io/Formulario.html">
-              <img src="imagenes/form.png" alt="">
-              <span>Formulario</span>
-            </a>
+          <div class="header">
+              <div class="title">Mi primer formulario</div>
           </div>
-        </div>
+          <div class="footer">
+              <div class="autor">
+                  <a href="https://emilianoejgv.github.io/Formulario.html">
+                      <img src="imagenes/form.png" alt="">
+                      <span>Formulario</span>
+                  </a>
+              </div>
+          </div>
       </div>
 
       <div class="card element-3">
-        <div class="header">
-          <div class="title">Segunda práctica</div>
-        </div>
-        <div class="footer">
-          <div class="autor">
-            <a href="html/login.html">
-              <img src="imagenes/form.png" alt="">
-              <span>liga 2</span>
-            </a>
+          <div class="header">
+              <div class="title">Segunda práctica</div>
           </div>
-        </div>
+          <div class="footer">
+              <div class="autor">
+                  <a href="html/login.html">
+                      <img src="imagenes/form.png" alt="">
+                      <span>liga 2</span>
+                  </a>
+              </div>
+          </div>
       </div>
 
       <div class="card element-2">
-        <div class="header">
-          <div class="title">Traductor</div>
-        </div>
-        <div class="footer">
-          <div class="autor">
-            <a href="traductores.html">
-              <img src="imagenes/form.png" alt="">
-              <span>Traductor</span>
-            </a>
+          <div class="header">
+              <div class="title">Traductor</div>
           </div>
-        </div>
+          <div class="footer">
+              <div class="autor">
+                  <a href="traductores.html">
+                      <img src="imagenes/form.png" alt="">
+                      <span>Traductor</span>
+                  </a>
+              </div>
+          </div>
       </div>
+     
+
+  </div> 
+
+  <div id="github-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Puedes encontrar mi perfil en GitHub en el siguiente enlace:</p>
+      <a href="https://github.com/EmilianoEJGV?tab=repositories">GitHub - emilianoejgv</a>
     </div>
+  </div>
 
-   
-
-   
+  <script src="js/git.js"></script>
+  
     <script src="js/contenido.js"></script>
-    <script src="js/cale.js"></script>
+    
+   
 </body>
 </html>
+
